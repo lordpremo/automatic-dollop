@@ -1,0 +1,13 @@
+{
+  "name": "neon-scraper-api",
+  "version": "1.0.0",
+  "description": "Simple URL scraper API for Vercel (title, images, videos, links, og tags).",
+  "main": "api/scrape.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/scrape.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
